@@ -1,0 +1,13 @@
+<!-- its a logic to show list of Dinosaurs -->
+<h2>Here is all my Dinosaurs</h2>
+
+<ul>
+    <% for (let dino of dinos){ %>
+        <P><%= dino.name %></P>
+        <P><%= dino.type %></P>
+    <%} %>
+
+</ul>
+
+<!-- to show particular dinos using index -->
+<!-- <%= dinos[0].name %> -->
